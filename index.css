@@ -1,0 +1,50 @@
+h1 {
+    font-weight: 900;
+}
+
+h3 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5;
+
+}
+
+ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 6px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+li a:hover {
+    color: #111;
+}
+
+hr {
+    opacity: 1;
+    border: 1px solid white;
+}
+
+.box {
+    border: 1px solid white;
+}
