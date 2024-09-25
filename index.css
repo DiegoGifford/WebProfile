@@ -1,8 +1,7 @@
 .box {
-    border: 1px solid white;
-    margin-left: 300px;
-    margin-right: 300px;
-    width: 500px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 750px;
 }
 
 h1 {
@@ -18,7 +17,6 @@ h2 {
 
 h3 {
     font-weight: 600;
-    text-decoration: underline;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -32,7 +30,7 @@ body {
 
 }
 
-ul {
+.navSetup ul {
     font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
     margin: 0;
@@ -43,26 +41,56 @@ ul {
     margin-right: 200px;
 }
   
-li {
+.navSetup li {
     float: left;
 }
-  
-li a {
+
+.navSetup li p {
     display: block;
     color: white;
     text-align: center;
-    padding: 5px 6px;
+    padding: 5px 9px;
     text-decoration: none;
     font-weight: 900;
 }
 
-li a:hover {
-    color: #111;
+.navSetup li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    font-weight: 900;
 }
 
 hr {
     opacity: 1;
     border: 1px solid white;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 00px;
 }
+.border {
+    opacity: 1;
+    border: 1px solid white;
+    margin-left: 200px;
+    width: 725px;
+}
+
+a:link {
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:visited {
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: white;
+    font-weight: bold;
+  }
+  
+  a:active {
+    color: white;
+    font-weight: bold;
+  }
