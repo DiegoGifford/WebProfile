@@ -1,5 +1,22 @@
+.box {
+  margin-left: auto;
+  margin-right: auto;
+  width: 750px;
+  text-align: justify;
+}
+
 h1 {
   font-weight: 900;
+  padding-top: 50px;
+  margin-bottom: 0; /* Remove extra space under heading */
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 body {
@@ -7,32 +24,24 @@ body {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   line-height: 1.5;
-
 }
 
-ul {
-  font-family: 'Courier New', Courier, monospace;
+.navSetup ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333333;
 }
 
-li {
-  float: left;
+.navSetup li {
+  display: inline;
+  margin-left: 15px;
 }
 
-li a {
-  display: block;
+.navSetup li a {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  font-weight: 900;
   text-decoration: none;
-}
-
-li a:hover {
-  color: #111;
+  padding: 5px 9px;
 }
 
 hr {
@@ -40,6 +49,43 @@ hr {
   border: 1px solid white;
 }
 
-.box {
+.border {
+  opacity: 1;
   border: 1px solid white;
+  width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: white;
+  font-weight: bold;
+}
+
+a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+a:active {
+  color: white;
+  font-weight: bold;
+}
+
+
+.profilePicture {
+  max-width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.greyText {
+  color: #676767;
 }

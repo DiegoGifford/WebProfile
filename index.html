@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Profile 1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
@@ -8,34 +10,66 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 text-center">
                 <h1>Diego Gifford</h1>
-                    <br>
-                    <br>
-        <div class="navSetup">
-            <div class="col-md-12">
-                <ul>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><p>|</p></li>
-                    <li><a href="resume.html">Resume</a></li>
-                </ul>
+                <!-- Move nav bar directly under the name -->
+                <div class="navSetup">
+                    <ul class="d-inline-block">
+                        <li><a href="resume.html">Resume</a></li>
+                    </ul>
+                </div>
                 <hr class="border">
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-12 text-wrap box">
-                <h2>About me</h2>
-                <p>Hi! I'm a student currently studying Data Science at IU Bloomington. This website is where I host coursework and personal projects that I think are interesting enough to show off.</p>
-
-                <p>Some hobbies I have outside of programming are weight lifting, rockclimbing, playing video games, and reading.</p>
-
-                <p>If you want to find me anywhere else here are my socials.</p>
+                <h2>About Me</h2>
+                <div class="clearfix">
+                    <img src="profileimgs/me.jpg" class="img-fluid rounded profilePicture float-start me-3" alt="Diego in front of a waterfall">
+                    <p><strong>Hi!</strong> I'm a student currently studying Data Science at IU Bloomington. This website is where I host coursework and personal projects that I think are interesting enough to show off.</p>
+                    <p>I'm always trying new things and exploring.</p>
+                    <p>Some hobbies I have outside of programming are weight lifting, rock climbing, playing video games, and reading.</p>
+                    <p>If you want to find me anywhere else, here are my socials:</p>
+                </div>
                 <ul>
-                    <li><a  href="x.com">Twitter</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="https://x.com/gifford_diego">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/diego.gifford/?next=%2F">Instagram</a></li>
                 </ul>
                 <hr>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2>Projects</h2>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="profileimgs/projectone.jpg" alt="picture of first project">
+                <h4 class="text-center">Indiana vs Prudue Webpage</h4>
+                <p>A small webpage I made learning the basics of bootstrap.  <a href="https://dgiffor.pages.iu.edu/i101/css3.html">Link</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="profileimgs/projecttwo.jpg" alt="picture of second project">
+                <h4 class="text-center">Hometown Webpage</h4>
+                <p>A small webpage created to introduce my hometown.  <a href="https://dgiffor.pages.iu.edu/i101/week4lab.html">Link</a></p>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid" src="profileimgs/projectthree.jpg" alt="picture of third project">
+                <h4 class="text-center">Movie Webpage</h4>
+                <p>A small webpage where I showed an understanding of HTML. <a href="https://dgiffor.pages.iu.edu/i101/html2.html">Link</a></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center greyText">
+                <p>“I certify that the content included in this portfolio/website is my own original work (or is cited
+                    accurately) and accurate to my knowledge. Work included which was conducted as part of a team or other
+                    group is indicated and attributed as such the other team members are named and a true description of my
+                    role in the project is included. ~Diego Gifford~”</p>
+            </div>
+            <div class="col-md-12 text-center">
+                <p>Layout by <a href="https://getbootstrap.com/">Bootstrap</a></p>
             </div>
         </div>
     </div>

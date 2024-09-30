@@ -1,78 +1,60 @@
 .box {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
     width: 750px;
+    text-align: justify;
 }
 
 h1 {
     font-weight: 900;
     padding-top: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-bottom: 0; /* Remove extra space under heading */
 }
 
 h2 {
     font-weight: bold;
 }
 
-h3 {
-    font-weight: 600;
-    margin-left: 200px;
-    margin-right: 200px;
+h4 {
+    font-weight: bold;
 }
+
 body {
     background-color: #333333;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.5;
-    margin-left: 200px;
-    margin-right: 200px;
-
 }
 
 .navSetup ul {
-    font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-  
-.navSetup li {
-    float: left;
 }
 
-.navSetup li p {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 5px 9px;
-    text-decoration: none;
-    font-weight: 900;
+.navSetup li {
+    display: inline;
+    margin-left: 15px;
 }
 
 .navSetup li a {
-    display: block;
     color: white;
-    text-align: center;
-    padding: 5px 9px;
-    text-decoration: none;
     font-weight: 900;
+    text-decoration: none;
+    padding: 5px 9px;
 }
 
 hr {
     opacity: 1;
     border: 1px solid white;
-    margin-left: 00px;
 }
+
 .border {
     opacity: 1;
     border: 1px solid white;
-    margin-left: 200px;
     width: 725px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 a:link {
@@ -94,3 +76,16 @@ a:link {
     color: white;
     font-weight: bold;
   }
+
+
+.profilePicture {
+    max-width: 30%;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.greyText {
+    color: #676767;
+}
